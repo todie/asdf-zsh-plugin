@@ -18,6 +18,3 @@ if [[ -d $ASDF_DIR ]]; then
 
   for plugin in $(zsh_plugin:asdf:tools); zsh_plugin:asdf:ensure $plugin
 fi
-
-unset zsh_plugin:asdf:ensure
-unset zsh_plugin:asdf:tools
