@@ -14,7 +14,7 @@ function zsh_plugin:asdf:ensure () {
 
 if [[ -d $ASDF_DIR ]]; then
   source $ASDF_DIR/asdf.sh
-  fpath+=($ASDF_DIR/completions)
-
+  fpath+="$ASDF_DIR/completions"
+  path+="$ASDF_DATA_DIR/shims"
   for plugin in $(zsh_plugin:asdf:tools); zsh_plugin:asdf:ensure $plugin
 fi
