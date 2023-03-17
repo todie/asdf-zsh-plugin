@@ -1,14 +1,14 @@
-# asdf.plugin.zsh
+# asdf-plugin-zsh
 
 Zsh integration and completions for [asdf](https://github.com/asdf-vm/asdf), the extendable version manager, with support for Ruby, Node.js, Elixir, Erlang and more.
 
 ## Installation
 
 ### Using [zplug](https://github.com/zplug/zplug)
-Load asdf.plugin.zsh as a plugin in your `.zshrc`
+Load asdf-plugin-zsh as a plugin in your `.zshrc`
 
 ```shell
-zplug "todie/asdf.plugin.zsh", defer:2
+zplug "todie/asdf-plugin-zsh", defer:2
 
 ```
 ### Using [zgen](https://github.com/tarjoilija/zgen)
@@ -16,25 +16,25 @@ zplug "todie/asdf.plugin.zsh", defer:2
 Include the load command in your `.zshrc`
 
 ```shell
-zgen load todie/asdf.plugin.zsh
+zgen load todie/asdf-plugin-zsh
 zgen save
 ```
 
 ### Using [Antigen](https://github.com/zsh-users/antigen)
 
-Bundle asdf.plugin.zsh in your `.zshrc`
+Bundle asdf-plugin-zsh in your `.zshrc`
 
 ```shell
-antigen bundle todie/asdf.plugin.zsh
+antigen bundle todie/asdf-plugin-zsh
 antigen apply
 ```
 
 ### As an [Oh My Zsh](https://github.com/robbyrussell/oh-my-zsh) custom plugin
 
-Clone asdf.plugin.zsh into your custom plugins repo
+Clone asdf-plugin-zsh into your custom plugins repo
 
 ```shell
-git clone https://github.com/todie/asdf.plugin.zsh $HOME/.oh-my-zsh/custom/plugins/asdf
+git clone https://github.com/todie/asdf-plugin-zsh $HOME/.oh-my-zsh/custom/plugins/asdf
 ```
 Then load as a plugin in your `.zshrc`
 
