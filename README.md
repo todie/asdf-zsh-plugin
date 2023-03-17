@@ -8,7 +8,7 @@ Zsh integration and completions for [asdf](https://github.com/asdf-vm/asdf), the
 Load asdf.plugin.zsh as a plugin in your `.zshrc`
 
 ```shell
-zplug "kiurchv/asdf.plugin.zsh", defer:2
+zplug "todie/asdf.plugin.zsh", defer:2
 
 ```
 ### Using [zgen](https://github.com/tarjoilija/zgen)
@@ -16,7 +16,7 @@ zplug "kiurchv/asdf.plugin.zsh", defer:2
 Include the load command in your `.zshrc`
 
 ```shell
-zgen load kiurchv/asdf.plugin.zsh
+zgen load todie/asdf.plugin.zsh
 zgen save
 ```
 
@@ -25,7 +25,7 @@ zgen save
 Bundle asdf.plugin.zsh in your `.zshrc`
 
 ```shell
-antigen bundle kiurchv/asdf.plugin.zsh
+antigen bundle todie/asdf.plugin.zsh
 antigen apply
 ```
 
@@ -34,7 +34,7 @@ antigen apply
 Clone asdf.plugin.zsh into your custom plugins repo
 
 ```shell
-git clone https://github.com/kiurchv/asdf.plugin.zsh $HOME/.oh-my-zsh/custom/plugins/asdf
+git clone https://github.com/todie/asdf.plugin.zsh $HOME/.oh-my-zsh/custom/plugins/asdf
 ```
 Then load as a plugin in your `.zshrc`
 
